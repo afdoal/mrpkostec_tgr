@@ -1,0 +1,56 @@
+[{  
+    "id":1,  
+    "text":"Material",  
+	"state":"closed", 
+    "iconCls":"icon-save",  
+    "children":[{  
+			"text":"Transaction",
+			"state":"closed",  
+			"children":[{  
+				"text":"<a href=\"material/po_frm.php?NmMenu=Purchase Order\" target=\"content\">Purchase Order (PO)</a>"
+				},{  
+				"text":"Incoming",
+				"state":"closed",  
+				"children":[{  
+					"text":"<a href=\"material/matin_frm.php?NmMenu=Incoming Material\" target=\"content\">Incoming Material (IN)</a>"
+				},{ 			
+					"text":"<a href=\"material/fg_prod_result_frm.php?NmMenu=Finished Goods Production Result\" target=\"content\">FG Production Result</a>"
+				}]
+			},{	
+				"text":"Outgoing",
+				"state":"closed",  
+				"children":[{  
+					"text":"<a href=\"material/do_frm.php?NmMenu=Delivery Order\" target=\"content\">Delivery Order (DO)</a>"				
+				}]
+			}]
+		},{  		
+				"text":"Transaction Report",
+				"state":"closed",  
+				"children":[{						 				
+						"text":"<a href=\"material/po_list.php?NmMenu=Purchase Order\" target=\"content\">Purchase Order</a>"
+						},{  				 
+						"text":"Incoming",
+						"state":"closed",  
+						"children":[{ 
+							"text":"<a href=\"material/matin_list.php?NmMenu=Incoming Material\" target=\"content\">Incoming Material</a>"
+						},{  
+							"text":"<a href=\"material/fg_prod_result_list.php?NmMenu=FG Production Result\" target=\"content\">FG Production Result</a>"
+						}]
+					},{  				 
+						"text":"Outgoing",
+						"state":"closed",  
+						"children":[{ 							
+							"text":"<a href=\"material/do_list.php?NmMenu=Delivery Order\" target=\"content\">Delivery Order (DO)</a>"				
+						}]
+					}]	
+		},{
+			"text":"Executive Report",
+			"state":"closed",  
+			"children":[{
+					"text":"<a href=\"material/po_balance_list.php?NmMenu=PO Balance Supplier\" target=\"content\">PO Balance Supplier</a>"							
+			
+			}]
+		}]		
+},{  
+    "text":"<a href='logout.php'>Logout</a>"  
+}]

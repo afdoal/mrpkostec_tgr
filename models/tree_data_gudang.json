@@ -1,0 +1,117 @@
+[{  
+    "id":1,  
+    "text":"Global Data Master",  
+	"state":"closed", 
+    "iconCls":"icon-save",  
+    "children":[{
+		"text":"<a href=\"masterdata/user_frm.php?NmMenu=User Administration\" target=\"content\">User</a>"	
+	},{
+		"text":"<a href=\"masterdata/negara_frm.php?NmMenu=Negara\" target=\"content\">Negara</a>"	
+	},{  	
+		"text":"<a href=\"masterdata/company_frm.php?NmMenu=Customer&TpPrshn=c\" target=\"content\">Customer</a>"
+	},{  
+		"text":"<a href=\"masterdata/company_frm.php?NmMenu=Supplier&TpPrshn=s\" target=\"content\">Supplier</a>"
+	},{ 	
+		"text":"<a href=\"masterdata/satuan_frm.php?NmMenu=Unit Of Items\" target=\"content\">Unit Of Items</a>"
+	},{ 			 
+		"text":"<a href=\"masterdata/valuta_frm.php?NmMenu=Valuta\" target=\"content\">Valuta</a>"						
+	}]
+},{  
+    "id":1,  
+    "text":"Material",  
+	"state":"closed", 
+    "iconCls":"icon-save",  
+    "children":[{  
+		"id":1,  
+		"text":"Data Master",  
+		"state":"closed", 
+		"iconCls":"icon-save",  
+		"children":[{  
+				"text":"<a href=\"material/matgroup_frm.php?NmMenu=Material Group\" target=\"content\">Material Group</a>"    
+			},{
+				"text":"<a href=\"material/material_frm.php?NmMenu=Raw Material&TpBarang=1\" target=\"content\">Raw Material (RM)</a>"    
+			},{  
+				"text":"<a href=\"masterdata/barang2_frm.php?NmMenu=Finished Goods&TpBarang=0\" target=\"content\">Finished Goods (FG)</a>"
+			},{  
+				"text":"<a href=\"masterdata/barang2_frm.php?NmMenu=Semi Finished Goods (WIP)&TpBarang=11\" target=\"content\">Semi Finished Goods (Work In Process)</a>"	
+			},{  
+				"text":"<a href=\"masterdata/initial_mat_frm.php?NmMenu=Initial Balance Material\" target=\"content\">Initial Balance Mat.</a>"
+			},{
+				"text":"<a href=\"masterdata/initial_fg_frm.php?NmMenu=Initial Balance Finished Goods\" target=\"content\">Initial Balance FG</a>"
+			},{
+				"text":"<a href=\"masterdata/initial_wip_frm.php?NmMenu=Initial Balance Work In Process\" target=\"content\">Initial Balance WIP</a>"
+			},{  	
+				"text":"<a href=\"masterdata/initial_mac_frm.php?NmMenu=Initial Balance Scrap, Machine and Office Equipment\" target=\"content\">Initial Balance Scrap, Machine & Office Equipment</a>"	
+			},{  
+				"text":"<a href=\"masterdata/consumption_frm.php?NmMenu=Bill of Material (BOM)\" target=\"content\">BOM</a>"				
+			}]  
+		},{  
+			"text":"Transaction",
+			"state":"closed",  
+			"children":[{  
+				"text":"Incoming",
+				"state":"closed",  
+				"children":[{  
+					"text":"<a href=\"material/wip_frm.php?NmMenu=WIP In&type=I\" target=\"content\">WIP In</a>"					
+				},{ 			 
+					"text":"<a href=\"material/fg_prod_result_frm.php?NmMenu=Finished Goods Production Result\" target=\"content\">FG Production Result</a>"
+				}]
+			},{	
+				"text":"Outgoing",
+				"state":"closed",  
+				"children":[{  
+					"text":"<a href=\"material/wip_frm.php?NmMenu=WIP Out&type=O\" target=\"content\">WIP Out</a>"
+				}]
+			}]
+		},{  
+			"text":"Report",  
+			"state":"closed",  
+			"children":[{  
+				"text":"Data Master Report",    
+				"state":"closed",  
+				"children":[{
+						"text":"<a href=\"material/material_list.php?NmMenu=Raw Material&TpBarang=1\" target=\"content\">Raw Material</a>"    
+					},{  
+						"text":"<a href=\"masterdata/barang2_list.php?NmMenu=Finished Goods&TpBarang=0\" target=\"content\">Finished Goods</a>"
+					},{  
+						"text":"<a href=\"masterdata/barang2_list.php?NmMenu=Work In Process&TpBarang=11\" target=\"content\">WIP</a>"	
+					},{	
+						"text":"<a href=\"masterdata/initial_mat_list.php?NmMenu=Initial Balance Material\" target=\"content\">Initial Balance Mat.</a>"
+					},{
+						"text":"<a href=\"masterdata/initial_fg_list.php?NmMenu=Initial Balance Finished Goods\" target=\"content\">Initial Balance FG</a>"
+					},{  
+						"text":"<a href=\"masterdata/consumption_list.php?NmMenu=Consumption List\" target=\"content\">BOM</a>"									
+				}]
+			},{ 				
+				"text":"Transaction Report",
+				"state":"closed",  
+				"children":[{						 				
+						"text":"Incoming",
+						"state":"closed",  
+						"children":[{   
+							"text":"<a href=\"material/wip_inout_list.php?NmMenu=WIP In&type=I\" target=\"content\">WIP In</a>"
+						},{  
+							"text":"<a href=\"material/fg_prod_result_list.php?NmMenu=FG Production Result\" target=\"content\">FG Production Result</a>"
+						}]
+					},{  				 
+						"text":"Outgoing",
+						"state":"closed",  
+						"children":[{ 							 
+							"text":"<a href=\"material/wip_inout_list.php?NmMenu=WIP Out&type=O\" target=\"content\">WIP Out</a>"
+						}]			
+					}]	
+			},{
+				"text":"Executive Report",
+				"state":"closed",  
+				"children":[{		
+						"text":"<a href=\"material/mutasi_mat_pilap2.php?NmMenu=Stock Material\" target=\"content\">Stock RM</a>"				
+					},{ 
+						"text":"<a href=\"material/mutasi_fg_pilap2.php?NmMenu=Stock Finished Goods\" target=\"content\">Stock FGS</a>"				
+					},{ 
+						"text":"<a href=\"material/mutasi_wip_pilap2.php?NmMenu=Stock Work In Process\" target=\"content\">Stock WIP</a>"						
+				}]
+			}]		
+	}]  
+},{  
+    "text":"<a href='logout.php'>Logout</a>"  
+}]

@@ -1,0 +1,31 @@
+[{  
+    "id":1,  
+    "text":"Material",  
+	"state":"closed", 
+    "iconCls":"icon-save",  
+    "children":[{  
+			"text":"Transaction",
+			"state":"closed",  
+			"children":[{  
+				"text":"<a href=\"material/so_frm.php?NmMenu=Purchase Order Customer\" target=\"content\">PO Customer</a>"
+			}]
+		},{  
+			"text":"Report",  
+			"state":"closed",  
+			"children":[{  								
+				"text":"Transaction Report",
+				"state":"closed",  
+				"children":[{						 				
+						"text":"<a href=\"material/so_list.php?NmMenu=Purchase Order Customer\" target=\"content\">PO Customer</a>"					
+						}]
+			},{
+				"text":"Executive Report",
+				"state":"closed",  
+				"children":[{		
+						"text":"<a href=\"material/so_balance_list.php?NmMenu=PO Balance Customer\" target=\"content\">PO Balance Cust.</a>"								
+				}]
+			}]		
+	}]
+},{  
+    "text":"<a href='logout.php'>Logout</a>"  
+}]
